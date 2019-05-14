@@ -11,3 +11,29 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.Celeb{
+  overflow-y: scroll;
+  height: 80vh;
+  width: 35vh;
+}
+
+.Celeb img{
+
+  height: 60px;
+  width: 60px;
+}
+
+.Bold span{
+  color:blue;
+  font-size:30px;
+ }
+ 
+ .Bold:hover span{
+  font-weight:bold;
+ }
+ 
+ .Bold:hover{
+  text-decoration:underline;
+  font-weight:bold;
+ }
